@@ -1,0 +1,5 @@
+Model,mAP (%),Parameter quantity (M),GFLOPs,Reasoning delay (ms),Throughput (FPS),Average power consumption (W)
+YOLOv10-N,97.2,4.45,18.1,19.7,50.8,8.2
+YOLOv11-N,97.5,4.32,17.9,20.0,50.0,8.4
+RT-DETR-R18,96.8,6.21,22.4,39.8,25.1,12.0
+TBAM-YOLOv8-EMSFFN,98.7,4.12,17.7,21.3,46.9,8.1
