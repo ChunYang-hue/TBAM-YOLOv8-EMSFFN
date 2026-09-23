@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the paper and the Zenodo record."
+title: "Multi-Scale Feature Fusion Network Optimization and Edge Intelligent Detection for Transmission Line Insulator"
+authors:
+  - family-names: Yang
+    given-names: Chun
+    affiliation: "Energy Development Research Institute, China Southern Power Grid, Guangzhou, 510663, China"
+  - family-names: Ma
+    given-names: Yining
+    affiliation: "Energy Development Research Institute, China Southern Power Grid, Guangzhou, 510663, China"
+doi: "10.5281/zenodo.21811717"
+date-released: "2026-09-22"
+version: "1.0.0"
+license: "CC-BY-4.0"
