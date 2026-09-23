@@ -1,0 +1,5 @@
+Model,mAP (%),Parameter quantity (M),GFLOPs (G)
+YOLOv10-N,97.2 ± 0.18,4.45,18.1
+YOLOv11-N,97.5 ± 0.15,4.32,17.9
+RT-DETR-R18,96.8 ± 0.22,6.21,22.4
+TBAM-YOLOv8-EMSFFN,98.7 ± 0.12,4.12,17.7
