@@ -1,0 +1,28 @@
+# PLOS ONE Zenodo Checklist
+
+- [ ] Zenodo record created or new version published.
+- [ ] DOI: 10.5281/zenodo.21811717
+- [ ] Title matches manuscript.
+- [ ] Authors and affiliations match manuscript.
+- [ ] Description explains data and code.
+- [ ] Keywords include transmission line insulator, TBAM, EMSFFN, edge intelligence.
+- [ ] License: data CC BY 4.0; code MIT.
+- [ ] README.md included.
+- [ ] DATA_DICTIONARY.md included.
+- [ ] data/data.yaml included.
+- [ ] raw images and labels uploaded.
+- [ ] enhanced images and labels uploaded.
+- [ ] train/val/test/unseen-line/cross-dataset split files uploaded.
+- [ ] code uploaded.
+- [ ] trained weights uploaded if permitted.
+- [ ] results tables uploaded.
+- [ ] Data Availability Statement in manuscript points to Zenodo DOI.
+- [ ] Code Availability Statement points to Zenodo DOI or GitHub + Zenodo.
+- [ ] No personal privacy or restricted data included.
+- [ ] File size below Zenodo limit.
+- [ ] Model name unified as EMSFFN in manuscript.
+- [ ] Loss name unified as EDIoU in manuscript.
+- [ ] Table 5 and Fig. 7 references corrected in manuscript.
+- [ ] Section 4.5 text clarified: 98.6% etc. are mAP values.
+- [ ] Funding Statement placeholder replaced with actual author initials.
+- [ ] Data release approved by China Southern Power Grid / EDRI.
