@@ -1,0 +1,7 @@
+Validation scheme,Fold,AP (%),mAP (%),Recall (%)
+Five-fold cross-validation,1,99.1,98.6,98.5
+Five-fold cross-validation,2,99.3,98.8,98.7
+Five-fold cross-validation,3,99.2,98.7,98.6
+Five-fold cross-validation,4,99.0,98.5,98.4
+Five-fold cross-validation,5,99.4,98.9,98.8
+Unseen-line test,-,98.5,97.8,97.6
