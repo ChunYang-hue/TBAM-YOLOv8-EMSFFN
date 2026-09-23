@@ -1,0 +1,12 @@
+python train.py \
+  --data ../data/data.yaml \
+  --cfg models/yolov8_tbam_emsffn.yaml \
+  --weights yolov8n.pt \
+  --epochs 200 \
+  --batch 16 \
+  --imgsz 640 \
+  --lr0 0.05 \
+  --lrf 0.01 \
+  --momentum 0.937 \
+  --workers 8 \
+  --patience 100
