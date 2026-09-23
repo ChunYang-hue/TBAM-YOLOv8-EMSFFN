@@ -1,0 +1,6 @@
+dataset_part,normal_insulator,self‑explosion_defect,breakage_defect,flashover_defect,total_images
+original_raw,2100,400,350,350,3200
+augmented_train_set,2100,1500,1400,1400,6400
+val_set_raw,212,40,34,34,320
+test_set_raw,210,42,34,34,320
+unseen_line_test_set,186,36,30,28,280
