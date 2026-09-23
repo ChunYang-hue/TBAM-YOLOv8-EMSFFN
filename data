@@ -1,0 +1,48 @@
+# Transmission‑Line Insulator Aerial Defect Dataset
+Dataset for paper: Multi‑Scale Feature Fusion Network Optimization and Edge Intelligent Detection for Transmission Line Insulator
+
+## Dataset Summary
+- Original raw aerial images: **3200 images** collected by UAV from real‑world transmission lines, provided by Energy Development Research Institute of China Southern Power Grid Co., LTD.
+- After data augmentation (only applied to training set): total 6400 images for model training.
+- Categories:
+0: Normal insulator
+1: Self‑explosion defect
+2: Breakage defect
+3: Flashover defect
+
+### Sample counts
+Original raw dataset (3200 images):
+- Normal insulator: 2100
+- Self‑explosion defect: 400
+- Breakage defect: 350
+- Flashover defect: 350
+
+Augmented training set (only train set augmented):
+- Normal insulator: 2100
+- Self‑explosion defect:1500
+- Breakage defect:1400
+- Flashover defect:1400
+Total augmented dataset size: **6400**
+
+## Data partition rules
+1. Original 3200 raw images are split into train / val / test = 8:1:1 (2560 /320 /320).
+2. **Data augmentation (rotation, geometric transform, noise injection) is ONLY performed on the training subset.** Validation and test sets use raw images without any augmentation.
+3. Images derived from the same source original image stay in the same subset; no augmented images leak into validation or test.
+4. Five‑fold cross‑validation is performed within the original training subset (2560 raw images).
+5. Unseen‑line independent test set: samples from transmission lines never appearing in training/validation, used to evaluate out‑of‑distribution generalization.
+
+## Annotation format
+Annotations follow **YOLO‑txt format**:
+`class_id x_center y_center width height`
+Coordinates are normalized to [0‑1].
+
+## File content in this repository
+This archive contains metadata, file‑name index lists, label examples, partition schemes for reproducibility.
+
+> Note: The raw aerial photograph images are subject to institutional copyright restrictions and cannot be publicly released. Researchers who require the original image files may contact the corresponding author to submit an access request.
+
+## Citation
+If you use this dataset, please cite the associated manuscript.
+
+Corresponding author: Chun Yang
+Email: daixiangji865137@163.com
