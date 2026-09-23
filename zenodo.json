@@ -1,0 +1,37 @@
+{
+  "title": "Multi-Scale Feature Fusion Network Optimization and Edge Intelligent Detection for Transmission Line Insulator",
+  "description": "This record contains the dataset, YOLO annotations, data split scripts, source code, model configuration, evaluation scripts and edge deployment scripts for the paper 'Multi-Scale Feature Fusion Network Optimization and Edge Intelligent Detection for Transmission Line Insulator'. The proposed model TBAM-YOLOv8-EMSFFN integrates a Three-Branch Attention Mechanism (TBAM) and an Enhanced Multi-Scale Feature Fusion Network (EMSFFN) into a lightweight YOLOv8 framework for transmission line insulator defect detection. The dataset includes normal insulators, self-explosion defects, breakage defects and flashover defects. The code supports training, validation, five-fold cross-validation, unseen-line generalization testing, cross-dataset testing and NVIDIA Jetson Xavier NX edge deployment with TensorRT FP16.",
+  "creators": [
+    {
+      "name": "Yang, Chun",
+      "affiliation": "Energy Development Research Institute, China Southern Power Grid, Guangzhou, 510663, China"
+    },
+    {
+      "name": "Ma, Yining",
+      "affiliation": "Energy Development Research Institute, China Southern Power Grid, Guangzhou, 510663, China"
+    }
+  ],
+  "keywords": [
+    "transmission line insulator",
+    "multi-scale feature fusion",
+    "network optimization",
+    "three-branch attention mechanism",
+    "edge intelligence",
+    "YOLOv8",
+    "TBAM",
+    "EMSFFN",
+    "defect detection"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "dataset",
+  "publication_date": "2026-09-22",
+  "version": "1.0.0",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21811717",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    }
+  ]
+}
