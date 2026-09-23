@@ -1,0 +1,4 @@
+Test scheme,Average precision (%),Average precision mean (%),Recall rate (%),F1 value (%)
+Identically distributed test set,99.2,98.7,98.8,98.9
+Test set without line,98.5,97.8,97.6,98.0
+Cross dataset test set,97.6,96.5,96.2,96.9
