@@ -1,0 +1,4 @@
+Object scale,AP of baseline model (%),AP of final model (%),Recall of baseline model (%),Recall of final model (%)
+Small object,93.5,98.4,92.8,98.0
+Medium object,,99.1,,98.8
+Large object,,99.4,,99.2
